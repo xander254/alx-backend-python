@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-A module that  takes a list input_list of floats as argument and returns their sum as a float
+A module that  takes a list input_list of floats as
+argument and returns their sum as a float
 """
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """
-    A func that takes a list input_list of floats as argument and 
+    A func that takes a list input_list of floats as argument and
     returns their sum as a float
 
     Args:
