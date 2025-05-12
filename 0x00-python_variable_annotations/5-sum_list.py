@@ -9,10 +9,9 @@ def sum_list(input_list: list[float]) -> float:
     A func that takes a list input_list of floats as argument and 
     returns their sum as a float
 
-    Args: 
-      float: items in the list
+    Args:
+        input_list (list[float]): A list containing float numbers
     Returns:
         float: sum of items in list
     """
-    total: float = sum(input_list)
-    return total
+    return sum(input_list)
