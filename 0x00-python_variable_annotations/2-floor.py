@@ -9,7 +9,10 @@ def floor(n: float) -> int:
     """
     a func that returns the floor of a float n
 
-    Returns: 
+    Args:
+        n (float): The number to find the floor of
+
+    Returns:
         int: floor of the argument
     """
     fl = math.floor(n)
