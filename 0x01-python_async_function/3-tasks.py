@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+A module that returns an asyncio.Task that wraps the wait_random coroutine
+"""
+
 
 import asyncio
 from typing import Callable
