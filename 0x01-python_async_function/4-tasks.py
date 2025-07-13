@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-a module that spawns task_wait_random n times and return the list of delays in order
+a module that spawns task_wait_random n times 
+and return the list of delays in order
 """
 
 
