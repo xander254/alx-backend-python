@@ -5,7 +5,7 @@ A module that takes a string and a int/float and returns a tupple
 """
 
 
-def to_kv(k: str, v: Union[int | float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     A func that takes a string and a int/float and returns a tuple
     Args:
@@ -14,4 +14,4 @@ def to_kv(k: str, v: Union[int | float]) -> Tuple[str, float]:
     Returns:
         tup: tuple of k and v
     """
-    return (k, float(v * v))
+    return (k, float(v ** 2))
