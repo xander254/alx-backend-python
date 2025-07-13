@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Coroutine that yields 10 random floats between 0 and 10,
 one every second (asynchronously)
